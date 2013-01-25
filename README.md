@@ -1,7 +1,7 @@
 Philips hue Developer API documentation
 =======================================
 
-The hue documentation itself can be read on http://developers.meethue.com/
+The hue documentation itself can be read on http://developers.meethue.com/.
 You only need this repository if you want to make changes to it.
 
 To work on the documentation locally you need to install Jekyll and Pygments:
