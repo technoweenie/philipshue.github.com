@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>{{ page.title }} - {{ site.title }}</title>
+    {% if page.description %}<meta name="description" content="{{ page.description }}">{% endif %}
+    <meta name="author" content="{{ site.author.name }}">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Le styles -->
+    <link href="assets/themes/twitter/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/themes/twitter/bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet">
+    <link href="assets/themes/twitter/bootstrap/css/bootstrap-custom.css" rel="stylesheet">
+    <link href="assets/themes/twitter/css/style.css?body=1" rel="stylesheet" type="text/css" media="all">
+    <link href="assets/pygments.css" rel="stylesheet" type="text/css">
+
+    <!-- Le fav and touch icons -->
+  <!-- Update these with your own images
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+  -->
+  </head>
+
+  <body>
+		
+		<div class="page">
+		
+	    <header class="site-header">                 
+	    	<nav class="hue-philips-header">
+          <a href="http://www.philips.com" class="philips-logo">
+            <img src="http://www.meethue.com/public/images/logos/philips-blue.png" alt="Philips">
+          </a>                       
+        </nav>          
+	            
+        <nav class="hue-header hue-stripes">
+            
+          <a href="http://www.meethue.com" class="header-logo">
+            <img src="http://www.meethue.com/public/images/logos/hue-logo.png" alt="Hue Personal Wireless Lighting">
+          </a>        
+
+          <h1 class="hue-page-title"><a class="brand" href="{{ HOME_PATH }}">Philips hue API</a></h1>
+          
+          <img class="hue-color-line-header" src="http://www.meethue.com/public/images/bg/hue-color-line.png">
+    
+        </nav>
+		 </header>
+	
+	    <div class="container content-container">
+	      <div class="row">
+	        <div class="span3 hue-navigation well" data-role="hue-navigation">
+	          <ul class="nav nav-list">   	          	
+	          		          	
+							{% for weight in (1..10) %}
+							  {% for p in site.pages %}
+							    {% if p.weight == weight %}
+							      <li {% if p.url == page.url %}class="active"{% endif %}>
+							        <a  href="{{ p.url }}">
+							          {{ p.title }}
+							        </a>
+							      </li>
+							    {% endif %}
+							  {% endfor %}
+							{% endfor %}
+
+	            <li class="divider"></li>
+						</ul>
+						<ul class="nav nav-list"  data-role="api-nav">
+	            <li class="nav-header">API</li>
+	                        
+		            {% assign pages_list = site.pages %}
+		            {% assign group = 'navigation_api' %}
+		            {% include JB/pages_list %}
+	            
+	            	
+	            <!-- INSTRUCTION 
+	           	It's not possible to create subnavigation from al the headings2 on the pages.
+	           	That's why we create the subnavigation ourself and add it on the correct position by Javascript.
+	           	Copy and paste a <ul> and give the correct data-position number. The number corresponds with the position of the list-item in the API-list.
+	           	
+	           	Example: Groups api is the first item, so data-position="1" 	
+	            	
+	           -->
+		
+	          	<ul data-role="sub-nav" data-position="1">
+	          		<li><a href="/1_lightsapi.html#11_get_all_lights">Get all lights</a></li>
+	          		<li><a href="/1_lightsapi.html#12_get_new_lights">Get new lights</a></li>
+	          		<li><a href="/1_lightsapi.html#13_search_for_new_lights">Search for new lights</a></li>
+	          		<li><a href="/1_lightsapi.html#14_get_light_attributes_and_state">Get light attributes and state</a></li>
+	          		<li><a href="/1_lightsapi.html#15_set_light_attributes_rename">Set light attributes (rename)</a></li>
+	          		<li><a href="/1_lightsapi.html#16_set_light_state">Set light state</a></li>
+	          	</ul>
+	          	
+	          	<ul data-role="sub-nav" data-position="2">
+	          		<li><a href="/2_groupsapi.html#21_get_all_groups">Get all groups</a></li>
+	          		<li><a href="/2_groupsapi.html#22_create_group">Create group</a></li>
+	          		<li><a href="/2_groupsapi.html#23_get_group_attributes">Get group attributes</a></li>
+	          		<li><a href="/2_groupsapi.html#24_set_group_attributes">Set group attributes</a></li>
+	          		<li><a href="/2_groupsapi.html#25_set_group_state">Set group state</a></li>
+	          		<li><a href="/2_groupsapi.html#26_delete_group">Delete group</a></li>
+	          	</ul>
+	          	
+	          	<ul data-role="sub-nav" data-position="3">
+	          		<li><a href="/3_schedulesapi.html#31_get_all_schedules">Get all schedules</a></li>
+	          		<li><a href="/3_schedulesapi.html#32_create_schedule">Create schedule</a></li>
+	          		<li><a href="/3_schedulesapi.html#33_get_schedule_attributes">Get schedule attributes</a></li>
+	          		<li><a href="/3_schedulesapi.html#34_set_schedule_attributes">Set schedule attributes</a></li>
+	          		<li><a href="/3_schedulesapi.html#35_delete_schedule">Delete schedule</a></li>          
+	          	</ul>
+	            
+	            <ul data-role="sub-nav" data-position="4">
+	          		<li><a href="/4_configurationapi.html#41_create_user">Create user</a></li>
+	          		<li><a href="/4_configurationapi.html#42_get_configuration">Get configuration</a></li>
+	          		<li><a href="/4_configurationapi.html#43_modify_configuration">Modify configuration</a></li>
+	          		<li><a href="/4_configurationapi.html#44_delete_user_from_whitelist">Delete user from whitelist</a></li>
+	          		<li><a href="/4_configurationapi.html#45_get_full_state_datastore">Get full state (datastore)</a></li>          
+	          	</ul>            
+	            
+	            <ul data-role="sub-nav" data-position="5">
+	          		<li><a href="/5_portalapi.html#51_discover_local_bridges">Discover local bridges</a></li> 
+	          	</ul>            
+	          </ul>
+	
+	        </div>
+	        
+	        <div class="span9 hue-main-content" data-role="main-content">
+	          <!--Body content-->          
+	        	{{ content }}
+	          
+	        </div>
+	        
+	      </div>
+	
+	
+	    </div> <!-- /container -->
+	    
+	    
+	    <footer class="site-footer hue-stripes">
+	        
+	    	<img class="hue-color-line-footer" src="http://www.meethue.com/public/images/bg/hue-color-line.png">
+	 
+		    <p>
+		        © 2004-2013 Koninklijke Philips Electronics N.V. with help from <a href="http://jekyllbootstrap.com" target="_blank" title="The Definitive Jekyll Blogging Framework">Jekyll Bootstrap</a>
+	          and <a href="http://twitter.github.com/bootstrap/" target="_blank">Twitter Bootstrap</a>           
+		    </p>        
+	
+			</footer>
+    
+    </div>    
+
+    {% include JB/analytics %}
+    <script type="text/javascript" src="assets/themes/twitter/js/jquery-1.8.3.min.js"></script>
+    <script type="text/javascript" src="assets/themes/twitter/js/jquery.cookie.js"></script>
+    <script type="text/javascript" src="assets/themes/twitter/js/script.js"></script>
+
+  </body>
+</html>
