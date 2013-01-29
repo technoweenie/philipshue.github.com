@@ -2,7 +2,7 @@
 layout: page
 title: "Error messages"
 description: ""
-group: "navigation_api"
+group: navigation_api
 ---
 {% include JB/setup %}
 

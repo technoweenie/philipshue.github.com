@@ -2,7 +2,7 @@
 layout: page
 title: "4. Configuration API"
 description: ""
-group: "navigation_api"
+group: navigation_api
 ---
 {% include JB/setup %}
 

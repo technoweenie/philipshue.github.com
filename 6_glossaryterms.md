@@ -2,7 +2,7 @@
 layout: page
 title: "Glossary terms"
 description: ""
-group: "navigation_api"
+group: navigation_api
 ---
 {% include JB/setup %}
 

@@ -2,7 +2,7 @@
 layout: page
 title: "3. Schedules API"
 description: ""
-group: "navigation_api"
+group: navigation_api
 ---
 {% include JB/setup %}
 

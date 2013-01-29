@@ -135,8 +135,7 @@ var checkConditionsOfUse = (function(){
 			$.cookie('originPath', window.location.href, { expires: 1, path: '/' });
 			
 			// redirect to conditions of use page				
-			window.location.replace("http://" + window.location.host + "/5_conditionsofuse.html");
-					
+			window.location.replace("http://" + window.location.host + "/conditionsofuse.html");
 		} 
 	}
 	
