@@ -1,8 +1,9 @@
 ---
 layout: page
-title: "Glossary terms"
+title: Glossary terms
 description: ""
 group: navigation_api
+weight: 6
 ---
 {% include JB/setup %}
 

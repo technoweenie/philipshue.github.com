@@ -1,8 +1,9 @@
 ---
 layout: page
-title: "Error messages"
+title: Error messages
 description: ""
 group: navigation_api
+weight: 8
 ---
 {% include JB/setup %}
 

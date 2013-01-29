@@ -57,27 +57,40 @@
 	        <div class="span3 hue-navigation well" data-role="hue-navigation">
 	          <ul class="nav nav-list">   	          	
 	          		          	
-							{% for weight in (1..10) %}
-							  {% for p in site.pages %}
-							    {% if p.weight == weight %}
-							      <li {% if p.url == page.url %}class="active"{% endif %}>
-							        <a  href="{{ p.url }}">
-							          {{ p.title }}
-							        </a>
-							      </li>
-							    {% endif %}
-							  {% endfor %}
-							{% endfor %}
+      				{% for weight in (1..100) %}
+      				  {% for p in site.pages %}
+      				    {% if p.weight == weight and p.group == 'navigation' %}
+      				      <li {% if p.url == page.url %}class="active"{% endif %}>
+      				        <a  href="{{ p.url }}">
+      				          {{ p.title }}
+      				        </a>
+      				      </li>
+      				    {% endif %}
+      				  {% endfor %}
+      				{% endfor %}
 
 	            <li class="divider"></li>
 						</ul>
 						<ul class="nav nav-list"  data-role="api-nav">
 	            <li class="nav-header">API</li>
-	                        
+
+              {% for weight in (1..100) %}
+                {% for p in site.pages %}
+                  {% if p.weight == weight and p.group == 'navigation_api' %}
+                    <li {% if p.url == page.url %}class="active"{% endif %}>
+                      <a  href="{{ p.url }}">
+                        {{ p.title }}
+                      </a>
+                    </li>
+                  {% endif %}
+                {% endfor %}
+              {% endfor %}
+
+	                <!--
 		            {% assign pages_list = site.pages %}
 		            {% assign group = 'navigation_api' %}
 		            {% include JB/pages_list %}
-	            
+	            	-->
 	            	
 	            <!-- INSTRUCTION 
 	           	It's not possible to create subnavigation from al the headings2 on the pages.

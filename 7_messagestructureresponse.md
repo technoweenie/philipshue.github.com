@@ -1,8 +1,9 @@
 ---
 layout: page
-title: "Message structure and response"
+title: Message structure and response
 description: ""
 group: navigation_api
+weight: 7
 ---
 {% include JB/setup %}
 

@@ -1,8 +1,9 @@
 ---
 layout: page
-title: "4. Configuration API"
+title: 4. Configuration API
 description: ""
 group: navigation_api
+weight: 4
 ---
 {% include JB/setup %}
 

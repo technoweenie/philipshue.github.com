@@ -1,8 +1,9 @@
 ---
 layout: page
-title: "Datatypes"
+title: Datatypes
 description: ""
 group: navigation_api
+weight: 9
 ---
 {% include JB/setup %}
 
