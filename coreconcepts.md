@@ -21,7 +21,7 @@ In most of the commands (the exception is creating a username) you’ll also inc
 
 `http://<bridge IP address>/api/<username>`
 
-This username determines which resources you have access to. If you provide a username that isn't known to the bridge then most resources won’t be available to you. Using one that is authorized, as shown in the [getting started](/3_gettingstarted.html) section, will allow you to interact with pretty much everything interesting.
+This username determines which resources you have access to. If you provide a username that isn't known to the bridge then most resources won’t be available to you. Using one that is authorized, as shown in the [getting started](/gettingstarted.html) section, will allow you to interact with pretty much everything interesting.
 
 Each new instance of an app should use a unique username which you generate using the [Create New User command](/4_configurationapi.html#41_create_user).
 

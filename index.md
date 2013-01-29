@@ -13,9 +13,9 @@ Your feedback following our hue launch was clear. You want to use light as you w
 ### Getting started
 We've started off by releasing the core parts of our bridge interface along with some easy to follow examples for how to use them. This should be enough to get you up and running controlling lights from your applications.
 
-* Learn [how hue works](/2_howhueworks.html) 
-* Easy step by step guide to [get you started](/3_gettingstarted.html)
-* See what you can do with [the hue system](/4_coreconcepts.html)
+* Learn [how hue works](/howhueworks.html) 
+* Easy step by step guide to [get you started](/gettingstarted.html)
+* See what you can do with [the hue system](/coreconcepts.html)
 * Questions? Ideas? Post them on our [developer forum](http://www.everyhue.com/?page_id=38)
 
 ### Free to publish

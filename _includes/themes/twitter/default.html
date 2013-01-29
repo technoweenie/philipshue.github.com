@@ -56,7 +56,10 @@
 	      <div class="row">
 	        <div class="span3 hue-navigation well" data-role="hue-navigation">
 	          <ul class="nav nav-list">   	          	
-	          		          	
+	          	<!--
+                I can haz jekyll bootstrap barf?
+                yes: https://github.com/plusjade/jekyll-bootstrap/issues/42
+              -->
       				{% for weight in (1..100) %}
       				  {% for p in site.pages %}
       				    {% if p.weight == weight and p.group == 'navigation' %}
