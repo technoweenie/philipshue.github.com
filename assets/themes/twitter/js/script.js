@@ -124,12 +124,12 @@ var checkConditionsOfUse = (function(){
 			// if there is no cookie yet, add an accept-conditions form
 			if (cookies == null){							
 				$('[data-role="main-content"]')
-					.append('<form data-role="form-accept"><div class="well well-large"><p class="validation-error" data-role="validation-error"></p><label class="checkbox"><input type="checkbox" id="AcceptConditions">I accept and understand the conditions of use for the hue API.</label></div><button class="btn btn-primary" data-role="accept-terms">Continue</button></form>')
-					.prepend('<div class="alert alert-block" data-role="conditions-alert"><h4 style="padding-top: 0">Almost ready to start</h4>Please make sure you are aware of the conditions of use for the hue API.</div>');
-			}		
-			
+					.append('<form data-role="form-accept"><div class="well well-large"><p class="validation-error" data-role="validation-error"></p><label class="checkbox"><input type="checkbox" id="AcceptConditions">I accept and understand the <a href="/legal.html">conditions of use</a> for the hue API.</label></div><button class="btn btn-primary" data-role="accept-terms">Continue</button></form>')
+					.prepend('<div class="alert alert-block" data-role="conditions-alert"><h4 style="padding-top: 0">Almost ready to start</h4>Please make sure you are aware of the <a href="/legal.html">conditions of use</a> for the hue API.</div>');
+			}
+
 		// else if you are on every page, except the index page AND no cookie yet
-		} else if (cookies == null && !(window.location.pathname.indexOf("index") > -1 ) && !(window.location.pathname == '/') ){
+		} else if (cookies == null && !(window.location.pathname.indexOf("index") > -1 ) && !(window.location.pathname.indexOf("legal") > -1 ) && !(window.location.pathname == '/')  ){
 			
 			// create cookie with the current path
 			$.cookie('originPath', window.location.href, { expires: 1, path: '/' });

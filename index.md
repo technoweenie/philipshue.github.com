@@ -19,12 +19,12 @@ We've started off by releasing the core parts of our bridge interface along with
 * Questions? Ideas? Post them on our [developer forum](http://www.everyhue.com/?page_id=38)
 
 ### Free to publish
-We don’t want to profit from your work; what you produce you own and are free to give away or sell. The interface may evolve over time but we will do our best to keep backwards compatibility wherever possible and be sure to inform you upfront before rolling out any updates. 
+We don’t want to profit from your work; what you produce you own and are free to give away or sell. What you develop is your own responsibility and Philips cannot be held liable for any resulting damages or losses. Also it is your own responsibility if you decide to commercialize your development. Philips cannot support you in that process. The interface may evolve over time but we will do our best to keep backwards compatibility wherever possible and be sure to inform you upfront before rolling out any updates. 
 
-All we ask is you properly [register your apps in the whitelist](/4_configurationapi.html#41_create_user) and make sure it’s clear that it’s your creation. So please avoid using hue or Philips branding. Above all, you’re free to experiment and have fun with it. 
+All we ask is you properly [register your apps in the whitelist](/4_configurationapi.html#41_create_user) and make sure it’s clear that it’s your creation. You are not allowed to use hue or Philips branding. Above all, you’re free to experiment and have fun with it. 
 
 ### More to come
-There will be more documentation for the other features over time. We’re even working on an iOS and Android SDK for later this year to provide libraries which make linking hue to your apps a breeze.
+There will be more documentation for the other features over time. The iOS SDK libraries are currently in open beta and available [here](TODO: ADD LINK HERE) which make linking hue to your apps a breeze. The Android SDK and other tools will available later this year. 
 
 There will be additional tiers to the developer program added over time where you can have access to the portal APIs, hue endorsement/promotion and more.
 
