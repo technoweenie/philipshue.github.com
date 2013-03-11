@@ -19,15 +19,19 @@ We've started off by releasing the core parts of our bridge interface along with
 * Questions? Ideas? Post them on our [developer forum](http://www.everyhue.com/?page_id=38)
 
 ### Free to publish
-We don’t want to profit from your work; what you produce you own and are free to give away or sell. What you develop is your own responsibility and Philips cannot be held liable for any resulting damages or losses. Also it is your own responsibility if you decide to commercialize your development. Philips cannot support you in that process. The interface may evolve over time but we will do our best to keep backwards compatibility wherever possible and be sure to inform you upfront before rolling out any updates. 
+Philips thinks it should be YOU who profits from your work. What you produce you own and are free to give away or sell.  That also means that everything connected with use of your product is your responsibility.  Philips will not accept liability if your product causes harm.  It is also entirely up to you whether and on what terms to commercialize your product.  
 
-All we ask is you properly [register your apps in the whitelist](/4_configurationapi.html#41_create_user) and make sure it’s clear that it’s your creation. You are not allowed to use hue or Philips branding. Above all, you’re free to experiment and have fun with it. 
+Just as "what is yours is yours", "what is ours is ours".  The software, trademarks documentation, and any other materials we provide to help you develop hue apps, including especially the interface specifications "API" belong to Philips. It may happen that working on an app suggests an idea to you for an improvement in the API or our materials.  If you suggest any improvements to us and we adopt them, they become part of the platform used by everyone, and belong to us.
+
+The interface between your apps and the hue platform will evolve over time, but we will do our best to maintain backwards compatibility and will inform you timely before we roll out updates.
+
+All we ask is that you [register your apps in the whitelist](/4_configurationapi.html#41_create_user) and make sure to make it clear they are your creation. You may refer to hue and Philips in plain text but you are not allowed to use hue or Philips name and branding or to use hue or Philips in any logo or graphics.  What you are allowed to do is to experiment and have fun with hue. 
 
 ### More to come
-There will be more documentation for the other features over time. The iOS SDK libraries are currently in open beta and available [here](TODO: ADD LINK HERE) which make linking hue to your apps a breeze. The Android SDK and other tools will available later this year. 
+There will be documentation covering more of our features soon. We’re even working on an iOS and Android SDK for later this year to provide libraries which make linking hue to your apps a breeze.
 
-There will be additional tiers to the developer program added over time where you can have access to the portal APIs, hue endorsement/promotion and more.
+There will be additional tiers to the developer program added over time to give you access to the portal APIs, hue endorsement/promotion and more.
 
-Feel free to make a post on the [developer forum](http://www.everyhue.com/?page_id=38) to share what you are doing, your experiences or for more information/support.
+Feel free to post on the [developer forum](http://www.everyhue.com/?page_id=38) to share what you are doing with hue, or to ask for information/support. 
 
 
