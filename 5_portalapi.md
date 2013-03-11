@@ -25,7 +25,7 @@ This will enable you to discover the local IP your bridge has been assigned on y
 ### 5.1.2	Response
 Returns a list of all bridges on the local network and their internal IP addresses.
 
-If there are no bridges on your external IP then the system will return an empty list, `[]`. No bridges will return an empty list `[]` instead of empty object `{}`.
+If there are no bridges on your external IP then the system will return an empty list, `[]`.
 
 ### 5.1.3	Response example
 
