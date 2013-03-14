@@ -122,4 +122,4 @@ Now let's do something a bit more fun and start changing some colours. Enter the
 
 We're interacting with the same "state" attributes here but now we're modifying a couple more attributes. We're making sure the light is on by setting the "on" resource to true. We're also making sure the saturation (intensity) of the colours and the brightness is at its maximum by setting the "sat" and "bri" resources to 255. Finally we're telling the system to set the "hue" (a measure of color) to 10000 points (hue runs from 0 to 65535). Try changing the hue value and keep pressing the PUT button and see the colour of your light changing running through different colors.
 
-**Now you understand the basics of the** commands you can send to hue through this tool – but we can also send the commands as part of an app as you can see in these examples. [TODO Link]
+**Now you understand the basics of the** commands you can send to hue through this tool – but we can also send the commands as part of an app.
