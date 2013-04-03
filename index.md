@@ -5,6 +5,7 @@ tagline: "to Philips hue API"
 group: "navigation"
 weight: 1
 ---
+
 {% include JB/setup %}
 
 ### See what you can do
@@ -28,10 +29,8 @@ The interface between your apps and the hue platform will evolve over time, but 
 All we ask is that you [register your apps in the whitelist](/4_configurationapi.html#41_create_user) and make sure to make it clear they are your creation. You may refer to hue and Philips in plain text but you are not allowed to use hue or Philips name and branding or to use hue or Philips in any logo or graphics.  What you are allowed to do is to experiment and have fun with hue. 
 
 ### More to come
-There will be documentation covering more of our features soon. We’re even working on an iOS and Android SDK for later this year to provide libraries which make linking hue to your apps a breeze.
+There will be documentation covering more of our features soon. There already is an iOS SDK and the Android SDK will follow later this year to make linking hue to your apps a breeze.
 
 There will be additional tiers to the developer program added over time to give you access to the portal APIs, hue endorsement/promotion and more.
 
-Feel free to post on the [developer forum](http://www.everyhue.com/?page_id=38) to share what you are doing with hue, or to ask for information/support. 
-
-
+Feel free to post on the [developer forum](http://www.everyhue.com/?page_id=38) to share what you are doing with hue, or to ask for information/support.
