@@ -5,6 +5,7 @@ description: ""
 group: navigation_api
 weight: 2
 ---
+
 {% include JB/setup %}
 
 ## 2.1.	Get all groups
@@ -15,8 +16,7 @@ weight: 2
 |Permission	|Whitelist								|
 
 ### 2.1.1.	Description
-Gets a list of all groups that have been added to the bridge. A group is a list of lights that can be created, [modified](#24_set_group_attributes) and deleted by a user. The maximum numbers of groups is 16. At present only a limited number of these APIs are supported in the firmware so only control of `groups/0` is supported. 
-
+Gets a list of all groups that have been added to the bridge. A group is a list of lights that can be created, [modified](#24_set_group_attributes) and deleted by a user. The maximum numbers of groups is 16. N.B. For the first bridge firmware release, bridge software version 01003542 only, a limited number of these APIs are supported in the firmware so only control of groups/0 is supported. 
 
 ### 2.1.2.	Response
 Returns a list of all groups in the system, each group has a name and unique identification number.
@@ -197,7 +197,4 @@ There are 3 methods available to set the color of the light – hue and saturati
 
 
 ## 2.6.	Delete group
-This method is not supported in the 1.0 version of the API.  It is scheduled for release in the next version of the API. 
-
-
- 
+This method is not supported in the 1.0 version of the API.  It is scheduled for release in the next version of the API.
