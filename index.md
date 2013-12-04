@@ -18,7 +18,7 @@ We've started off by releasing the core parts of our bridge interface along with
 * Learn [how hue works](/howhueworks.html) 
 * Easy step by step guide to [get you started](/gettingstarted.html)
 * See what you can do with [the hue system](/coreconcepts.html)
-* Questions? Ideas? Post them on our [developer forum](http://www.everyhue.com/?page_id=38)
+* Questions? Ideas? Post them on the [developer forum](http://www.everyhue.com/?page_id=38)
 
 ### Free to publish
 Philips thinks it should be YOU who profits from your work. What you produce you own and are free to give away or sell.  That also means that everything connected with use of your product is your responsibility.  Philips will not accept liability if your product causes harm.  It is also entirely up to you whether and on what terms to commercialize your product.  
