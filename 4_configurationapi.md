@@ -4,7 +4,9 @@ title: 4. Configuration API
 description: ""
 group: navigation_api
 weight: 4
+published: true
 ---
+
 {% include JB/setup %}
 
 ## 4.1.	Create user
@@ -301,7 +303,7 @@ This command is used to fetch the entire datastore from the device, including se
 			"name": "schedule",
 			"description": "",
 			"command": {
-				"address": "/api/0/groups/0/action",
+				"address": "/api/<username>/groups/0/action",
 				"body": {
 					"on": true
 				},
