@@ -4,7 +4,9 @@ title: 3. Schedules API
 description: ""
 group: navigation_api
 weight: 3
+published: true
 ---
+
 {% include JB/setup %}
 
 ## 3.1.	Get all schedules
@@ -61,7 +63,7 @@ Allows the user to create new schedules. The bridge can store up to 100 schedule
 	"name": "Wake up",
 	"description": "My wake up alarm",
 	"command": {
-		"address": "/api/0/groups/1/action",
+		"address": "/api/<username>/groups/1/action",
 		"method": "PUT",
 		"body": {
 			"on": true
@@ -107,7 +109,7 @@ Gets all attributes for a schedule.
 	"name": "Wake up",
 	"description": "My wake up alarm",
 	"command": {
-		"address": "/api/0/groups/1/action",
+		"address": "/api/<username>/groups/1/action",
 		"method": "PUT",
 		"body": {
 			"on": true
@@ -174,9 +176,3 @@ The response details whether the schedule was successfully deleted.
 	{"success": "/schedules/1 deleted."}
 ]
 {% endhighlight %}
-
- 
-
-
-
- 
