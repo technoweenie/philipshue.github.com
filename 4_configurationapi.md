@@ -66,7 +66,7 @@ Returns list of all configuration elements in the bridge. Note all times are sto
 |Name						|**Type**			|**Description**	|
 |:--------------|:------------|:----------------|
 |proxyport			|uint16				|Port of the proxy being used by the bridge. If set to 0 then a proxy is not being used. |
-|utc						|string				|Current time stored on the bridge.	|
+|UTC						|string				|Current time stored on the bridge.	|
 |name						|string 4..16	|Name of the bridge. This is also its uPnP name, so will reflect the actual uPnP name after any conflicts have been resolved. |
 |swupdate				|object				|Contains information related to software updates. | 
 |whitelist			|object				|An array of whitelisted user IDs.	|
@@ -84,7 +84,7 @@ Returns list of all configuration elements in the bridge. Note all times are sto
 {% highlight json %}
 {
 	"proxyport": 0,
-	"utc": "2012-10-29T12:00:00",
+	"UTC": "2012-10-29T12:00:00",
 	"name": "Smartbridge 1",
 	"swupdate": {
 		"updatestate":1,
