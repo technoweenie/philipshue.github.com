@@ -37,7 +37,7 @@ If there are no lights in the system then the bridge will return an empty object
 
 ## 1.2.	Get new lights
 
-|URL				|`/api/<username>/lights/new`	| 
+|URL				|`/api/<username>/lights/new`	|
 |:----------|:----------------------------|
 |Method			|`GET`												|
 |Version		|1.0													|
@@ -197,7 +197,7 @@ Allows the user to turn the light on and off, modify the hue and effects.
 	
 ### 1.6.2.	Body arguments
 |Name				|**Type**							|**Description**	| 	|
-|:----------|:--------------------|:----------------|:--|	
+|:----------|:--------------------|:----------------|:--|
 |on					|bool									|On/Off state of the light. On=true, Off=false|	Optional |
 |bri				|uint8								|The brightness value to set the light to.<br /><br />Brightness is a scale from 0 (the minimum the light is capable of) to 255 (the maximum). **Note**: a brightness of 0 is not off.<br /><br />e.g. "brightness": 60 will set the light to a specific brightness | Optional |
 |hue				|uint16w 							|The hue value to set light to.<br /><br />The hue value is a wrapping value between 0 and 65535. Both 0 and 65535 are red, 25500 is green and 46920 is blue.<br /><br />e.g. "hue": 50000 will set the light to a specific hue. |Optional |
