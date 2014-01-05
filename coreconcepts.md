@@ -38,7 +38,7 @@ You can query resources available in your bridge by doing a `GET` on its local U
 
 |Address	|`http://<bridge ip address>/api/newdeveloper/config`	|
 |:--------|:----------------------------------------------------|
-|Body			|																											|	
+|Body			|																											|
 |Method		|`GET`																								|
 
 
@@ -50,7 +50,7 @@ For example to change the name of the bridge (`/config/name`) we address the par
 |Address	|`http://<bridge ip address>/api/newdeveloper/config`	|
 |:--------|:----------------------------------------------------|
 |Body			|`{"name":"Developer Bridge"}`												|
-|Method		|`PUT`																								| 
+|Method		|`PUT`																								|
 
 If you're doing something that isn't allowed, maybe setting a value out of range or typo in the resource name, then you'll get an error message letting you know what’s wrong. For much more information see the [error section](/8_errormessages.html).
 
@@ -85,7 +85,7 @@ There are many properties that can be controlled with hue – more than you migh
 |Address	|`http://<bridge ip address>/api/newdeveloper/lights/1/state`	|
 |:--------|:------------------------------------------------------------|
 |Body			|`{"bri":42}`																									|
-|Method		|`PUT`																												|	
+|Method		|`PUT`																												|
 
 
 #### Color gets more complicated

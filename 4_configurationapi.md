@@ -68,14 +68,14 @@ Returns list of all configuration elements in the bridge. Note all times are sto
 |proxyport			|uint16				|Port of the proxy being used by the bridge. If set to 0 then a proxy is not being used. |
 |UTC						|string				|Current time stored on the bridge.	|
 |name						|string 4..16	|Name of the bridge. This is also its uPnP name, so will reflect the actual uPnP name after any conflicts have been resolved. |
-|swupdate				|object				|Contains information related to software updates. | 
+|swupdate				|object				|Contains information related to software updates. |
 |whitelist			|object				|An array of whitelisted user IDs.	|
 |swversion			|string				|Software version of the bridge. |
 |proxyaddress		|string 0..40	|IP Address of the proxy server being used. A value of "none" indicates no proxy. |
 |mac						|string				|MAC address of the bridge. |
 |linkbutton			|bool					|Indicates whether the link button has been pressed within the last 30 seconds. |
 |ipaddress			|string				|IP address of the bridge. |
-|netmask				|string				|Network mask of the bridge. | 
+|netmask				|string				|Network mask of the bridge. |
 |gateway				|string				|Gateway IP address of the bridge. |
 |dhcp						|bool					|Whether the IP address of the bridge is obtained with DHCP. |
 |portalservices	|bool				|This indicates whether the bridge is registered to synchronize data with a portal account. |
@@ -127,8 +127,8 @@ Allows the user to set some configuration values.
 |:------------|:--------------|:------------------|:------------|
 |proxyport		|uint16					|Port of the proxy being used by the bridge. If set to 0 then a proxy is not being used.	|Optional	|
 |name					|string 4..16		|Name of the bridge. This is also its uPnP name, so will reflect the actual uPnP name after any conflicts have been resolved.	|	Optional	|
-|swupdate			|object					|Contains information related to software updates. |	Optional	|	
-|proxyaddress	|string 0..40		|IP Address of the proxy server being used. A value of "none" indicates no proxy. |	Optional	|	
+|swupdate			|object					|Contains information related to software updates. |	Optional	|
+|proxyaddress	|string 0..40		|IP Address of the proxy server being used. A value of "none" indicates no proxy. |	Optional	|
 |linkbutton		|bool						|Indicates whether the link button has been pressed within the last 30 seconds.	|Optional	|
 |ipaddress		|string					|IP address of the bridge.	|	Optional	|
 |netmask			|string					|Network mask of the bridge.	| 	Optional	|

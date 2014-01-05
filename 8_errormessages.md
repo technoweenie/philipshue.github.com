@@ -54,9 +54,6 @@ Key:
 |ID		|**Description**		|**Details** |
 |:----|:------------------|:-----------|
 |101	|link button not pressed | The link button has not been pressed in the last 30 seconds. |
-|201	|parameter, `<parameter>`, is not modifiable. Device is set to off. |	This will be returned if a user attempts to modify a parameter that cannot be modified due to the current state of the device. This will most commonly be returned if the hue/sat/bri/effect/xy/ct parameters are modified while the on parameter is false. | 
-|301	|group could not be created. Group table is full. |	The bridge can store a maximum of 16 groups. This error will be returned when trying to add a new group if the limit has been reached. | 
+|201	|parameter, `<parameter>`, is not modifiable. Device is set to off. |	This will be returned if a user attempts to modify a parameter that cannot be modified due to the current state of the device. This will most commonly be returned if the hue/sat/bri/effect/xy/ct parameters are modified while the on parameter is false. |
+|301	|group could not be created. Group table is full. |	The bridge can store a maximum of 16 groups. This error will be returned when trying to add a new group if the limit has been reached. |
 |302	|device, `<id>`, could not be added to group. Device's group table is full. | The lamp can store a maximum of 16 groups. This error will be returned when trying to add a new group if the limit has been reached. |
-
-
- 

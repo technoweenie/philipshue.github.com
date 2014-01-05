@@ -98,9 +98,9 @@ Gets all attributes for a schedule.
 
 |Name					|**Type**				|**Description** |
 |:------------|:--------------|:---------------|
-|name					|string 0..32		|The name of the schedule. | 
+|name					|string 0..32		|The name of the schedule. |
 |description	|string 0..64		|Description of the schedule. |
-|command			|object 0..90		|Command to execute when the scheduled event occurs.	| 
+|command			|object 0..90		|Command to execute when the scheduled event occurs.	|
 |time					|string					|Time when the scheduled event will occur in [ISO 8601:2004](/6_glossaryterms.html) format. <br /><br />The bridge measures time in UTC and encodes time as a string in extended format, non-recurring, local time (YYYY-MM-DDThh:mm:ss). |
 
 ### 3.3.3.	Response example

@@ -49,7 +49,7 @@ Fill in the details below leaving the body box empty and press the `GET` button.
 
 | Address	|`http://<bridge ip address>/api/newdeveloper` 	|
 |:--------|:----------------------------------------------|
-|Body     |																								|	
+|Body     |																								|
 |Method		|`GET`																					|
 
 You should see a response like below:
@@ -90,7 +90,7 @@ Each light has its own URL.  You can see what lights you have with the following
 
 |Address	|`http://<bridge ip address>/api/newdeveloper/lights`	|
 |:--------|:----------------------------------------------------|
-|Body			|																											|	
+|Body			|																											|
 |Method		|`GET`																								|
 
 You should get a JSON response with all the lights in your system and their names.
