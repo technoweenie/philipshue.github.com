@@ -13,7 +13,7 @@ published: true
 
 ***LATEST NEWS:***
 
-[***NEW iOS AND OS X SDK 1.1.1 beta !!! ***](http://developers.meethue.com/PhilipsHueSDK-iOS-OSX/)
+[***UPDATED iOS AND OS X SDK 1.1.2 beta !!! ***](http://developers.meethue.com/PhilipsHueSDK-iOS-OSX/)
 
 [***NEW JAVA MULTIPLATFORM AND ANDROID SDK 1.1.1 beta !!! ***](http://developers.meethue.com/PhilipsHueSDK-Java-MultiPlatform-Android)
 
