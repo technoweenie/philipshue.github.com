@@ -13,9 +13,9 @@ published: true
 
 ***LATEST NEWS:***
 
-[***UPDATED iOS AND OS X SDK 1.1.2 beta !!! ***](http://developers.meethue.com/PhilipsHueSDK-iOS-OSX/)
+[***ARM64 NOW INCLUDED FOR iOS IN THE iOS AND OS X SDK 1.1.3 beta !!! ***](http://developers.meethue.com/PhilipsHueSDK-iOS-OSX/)
 
-[***NEW JAVA MULTIPLATFORM AND ANDROID SDK 1.1.1 beta !!! ***](http://developers.meethue.com/PhilipsHueSDK-Java-MultiPlatform-Android)
+[***JAVA MULTIPLATFORM AND ANDROID SDK 1.1.1 beta !!! ***](http://developers.meethue.com/PhilipsHueSDK-Java-MultiPlatform-Android)
 
 
 ### See what you can do
