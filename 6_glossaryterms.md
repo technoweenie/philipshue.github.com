@@ -16,5 +16,5 @@ The following terms are used in the documentation and may not be immediately obv
 |breathe cycle	|The light or lights do one smooth transition from the current state to a higher brightness in the current color to a lower brightness in the current color and back to the original state. |
 |alert effect		|Alert effects are used to set the lamp to a time limited dynamic effect i.e. the lamps will change there lamps during a short time period and then return to their previous value. Example is the select breathe cycle. |
 |dynamic effect	|Dynamic effects are changes over time of the light state which continue until the user stops the effect. Example is the color loop. |
-|Link button		|The circular button on the top of the hue bridge.<br /> ![Bridge link button](https://www.meethue.com/public/images/smartbridge.jpg) |
+|Link button		|The circular button on the top of the hue bridge.<br /> ![Bridge link button](/assets/smartbridge.jpg) |
 

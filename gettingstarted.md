@@ -7,7 +7,7 @@ weight: 4
 ---
 {% include JB/setup %}
 
-First make sure you have your hue kit connected and installed. For help with this please go [here](http://www.meethue.com/getstarted) or if you still need to buy a kit go [here](http://www.meethue.com/buy).
+First make sure you have your hue kit connected and installed. For help with this please go [here](http://meethue.com/getstarted) or if you still need to buy a kit go [here](http://meethue.com/buy).
 
 The fastest way to learn how to build apps which control the hue system is to use the simple test web app built into every bridge. This lets you directly input commands and send them to the lights.  You can look at the source HTML and JavaScript code for some directions on how to do something different.
 

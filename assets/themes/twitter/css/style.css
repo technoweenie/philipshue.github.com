@@ -44,13 +44,13 @@ body {
 }
 
 .hue-stripes {
-	background: #252525 url('http://www.meethue.com/public/images/bg/stripes.png');
-  background-image: url('http://www.meethue.com/public/images/bg/stripes.png'),-moz-linear-gradient(left,black 0%,#1F1F1F 12%,#252525 50%,#1F1F1F 88%,black 100%);
-  background-image: url('http://www.meethue.com/public/images/bg/stripes.png'),-webkit-gradient(linear,left top,right top,color-stop(0%,black),color-stop(12%,#1F1F1F),color-stop(50%,#252525),color-stop(88%,#1F1F1F),color-stop(100%,black));
-  background-image: url('http://www.meethue.com/public/images/bg/stripes.png'),-webkit-linear-gradient(left,black 0%,#1F1F1F 12%,#252525 50%,#1F1F1F 88%,black 100%);
-  background-image: url('http://www.meethue.com/public/images/bg/stripes.png'),-o-linear-gradient(left,black 0%,#1F1F1F 12%,#252525 50%,#1F1F1F 88%,black 100%);
-  background-image: url('http://www.meethue.com/public/images/bg/stripes.png'),-ms-linear-gradient(left,black 0%,#1F1F1F 12%,#252525 50%,#1F1F1F 88%,black 100%);
-  background-image: url('http://www.meethue.com/public/images/bg/stripes.png'),linear-gradient(left,black 0%,#1F1F1F 12%,#252525 50%,#1F1F1F 88%,black 100%);	
+  background: #252525 url('/assets/stripes.png');
+  background-image: url('/assets/stripes.png'),-moz-linear-gradient(left,black 0%,#1F1F1F 12%,#252525 50%,#1F1F1F 88%,black 100%);
+  background-image: url('/assets/stripes.png'),-webkit-gradient(linear,left top,right top,color-stop(0%,black),color-stop(12%,#1F1F1F),color-stop(50%,#252525),color-stop(88%,#1F1F1F),color-stop(100%,black));
+  background-image: url('/assets/stripes.png'),-webkit-linear-gradient(left,black 0%,#1F1F1F 12%,#252525 50%,#1F1F1F 88%,black 100%);
+  background-image: url('/assets/stripes.png'),-o-linear-gradient(left,black 0%,#1F1F1F 12%,#252525 50%,#1F1F1F 88%,black 100%);
+  background-image: url('/assets/stripes.png'),-ms-linear-gradient(left,black 0%,#1F1F1F 12%,#252525 50%,#1F1F1F 88%,black 100%);
+  background-image: url('/assets/stripes.png'),linear-gradient(left,black 0%,#1F1F1F 12%,#252525 50%,#1F1F1F 88%,black 100%);	
 }
 
 .hue-header {
