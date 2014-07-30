@@ -15,14 +15,14 @@ weight: 6
 <li class="p3"><span style="line-height: 1.42857143;">may not function correctly</span></li>
 </ul>
 <p class="p2">A bridge may contain lights supporting only brightness and on/off or only on/off<br>
-(type:�Dimmable light�)</p>
+(type:"Dimmable light")</p>
 <ul>
 <li class="p3">The light resource provided by the bridge (hue API or SDK) will not contain color attributes</li>
 <li class="p3">Sending color or color temperature to such a light will result in a failure</li>
 <li class="p3">Commands sending color in combination with on/off or brightness will result both
 <ul>
-<li class="p3">in change in on/off resp brightness</li>
-<li class="p3">in returning an error for color resp color temperature</li>
+<li class="p3">in change in on/off and brightness respectively</li>
+<li class="p3">in returning an error for color and color temperature respectively</li>
 </ul>
 </li>
 </ul> 
