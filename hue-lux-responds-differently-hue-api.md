@@ -16,7 +16,7 @@ weight: 2
 <li class="p3"><span style="line-height: 1.42857143;">may not function correctly</span></li>
 </ul>
 <p class="p2">A bridge may contain lights supporting only brightness and on/off or only on/off<br>
-(type:“Dimmable light”)</p>
+(type:ï¿½Dimmable lightï¿½)</p>
 <ul>
 <li class="p3">The light resource provided by the bridge (hue API or SDK) will not contain color attributes</li>
 <li class="p3">Sending color or color temperature to such a light will result in a failure</li>
@@ -26,7 +26,7 @@ weight: 2
 <li class="p3">in returning an error for color resp color temperature</li>
 </ul>
 </li>
-</ul>
+</ul> 
 <p class="p3">&nbsp;</p>
 <p class="p3">Light state returned by lux lights in the API as JSON is different, the color parameters do not apply to lux:</p>
 <p class="p1">Hue:</p>
