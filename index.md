@@ -13,7 +13,7 @@ published: true
 
 ***LATEST NEWS:***
 
-[***ARM64 NOW INCLUDED FOR iOS IN THE iOS AND OS X SDK 1.1.3 beta !!! ***](http://developers.meethue.com/PhilipsHueSDK-iOS-OSX/)
+[***hue lux responds differently in the hue API ***](http://developers.meethue.com/hue-lux-responds-differently-hue-api.html)
  
 
  
