@@ -1,13 +1,12 @@
 ---
 layout: page
-title: "Conditions of use"
+title: "hue lux responds differently in the hue API"
 description: ""
 group: "navigation"
 weight: 2
 ---
 {% include JB/setup %}
 
-<h1>hue lux responds differently in the hue API</h1>
 <p class="p1">With hue Lux, Philips introduce lamps and hue systems which can only be controlled by brightness and not by color or color temperature</p>
 <p class="p1">Consequences for apps:</p>
 <p class="p2"><span class="s1">&nbsp;</span>A bridge may contain no lights supporting color or color temperature. Applications focusing on the use of color-</p>
