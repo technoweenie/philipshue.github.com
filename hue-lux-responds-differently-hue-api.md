@@ -3,7 +3,7 @@ layout: page
 title: "hue lux responds differently in the hue API"
 description: ""
 group: "navigation"
-weight: 2
+weight: 6
 ---
 {% include JB/setup %}
 
