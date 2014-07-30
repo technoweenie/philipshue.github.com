@@ -13,7 +13,7 @@ published: true
 
 ***LATEST NEWS:***
 
-[***hue lux responds differently in the hue API ***](http://developers.meethue.com/hue-lux-responds-differently-hue-api.html)
+[*** hue lux responds differently in the hue API ***](http://developers.meethue.com/hue-lux-responds-differently-hue-api.html)
  
 
  
