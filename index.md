@@ -16,7 +16,7 @@ published: true
 [***ARM64 NOW INCLUDED FOR iOS IN THE iOS AND OS X SDK 1.1.3 beta !!! ***](http://developers.meethue.com/PhilipsHueSDK-iOS-OSX/)
  
 
-
+ 
 ### See what you can do
 Your feedback following our hue launch was clear. You want to use light as you want it. Here we provide you some material to do so. The hue bridge has a powerful [RESTful](http://en.wikipedia.org/wiki/Representational_state_transfer#RESTful_web_services) interface, which behaves like a simple web service. Use it as your tool. We hope this will help you to truly use light as you want it, by making new apps, websites and digital installations; integrating hue into something else or just playing around.
 
