@@ -9,7 +9,7 @@ weight: 6
 
 <p class="p1">With hue Lux, Philips introduce lamps and hue systems which can only be controlled by brightness and not by color or color temperature</p>
 <p class="p1">Consequences for apps:</p>
-<p class="p2"><span class="s1">&nbsp;</span>Until the release of hue Lux starter kits, a hue system always contained color lights. Lux systems however, if they are pure lux only systems, can contain only white lights. This means a bridge may contain no lights supporting color or color temperature. Applications focusing on the use of color-</p>
+<p class="p2">Until the release of hue Lux starter kits, a hue system always contained color lights. Lux systems however, if they are pure lux only systems, can contain only white lights. This means a bridge may contain no lights supporting color or color temperature. Applications focusing on the use of color-</p>
 <ul>
 <li class="p3">might not make sense to the user, ie recommend to add colored lights to improve experience</li>
 <li class="p3"><span style="line-height: 1.42857143;">may not function correctly</span></li>
