@@ -18,7 +18,7 @@ published: true
 
  
 ### See what you can do
-Your feedback following our hue launch was clear. You want to use light as you want it. Here we provide you some material to do so. The hue bridge has a powerful [RESTful](http://en.wikipedia.org/wiki/Representational_state_transfer#RESTful_web_services) interface, which behaves like a simple web service. Use it as your tool. We hope this will help you to truly use light as you want it, by making new apps, websites and digital installations; integrating hue into something else or just playing around.
+Your feedback following our hue launch was clear. You want to use light as you want it. Here we provide you some material to do so. The hue bridge has a powerful [RESTful](http://en.wikipedia.org/wiki/Representational_state_transfer#RESTful_web_services) interface, which behaves like a simple web service. Use it as your tool. We hope this will help you to truly use light as you want it, by making new apps, websites and digital installations; integrating hue into something else or just playing around. 
 
 ### Getting started
 We've started off by releasing the core parts of our bridge interface along with some easy to follow examples for how to use them. This should be enough to get you up and running controlling lights from your applications.
